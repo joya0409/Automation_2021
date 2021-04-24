@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel="none">
+    <test name="GoogleTest">
+        <classes>
+            <class name="Day11_04102021.Mlcalc_TESTNG"/>
+            <class name="Day12_04112021.googleSearch_HTMLReport"/>
+        </classes>
+    </test>
+</suite>
+
