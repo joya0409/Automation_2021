@@ -35,6 +35,7 @@ public class Action_Item3 {
 
         //STEP 5: THIS is where the for loop will start to iterate through your excel data
         for (int i = 1; i < rowCount; i++) {
+            //This is for testing
 
             //store all the values
             String size = writableSheet.getCell(0, i).getContents();
